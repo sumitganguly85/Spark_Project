@@ -1,0 +1,12 @@
+Location of Spark in Cloudera VM
+1. Spark-Shell without Spark Cluster => /usr/bin/spark-shell
+
+
+spark-submit \
+--class "SimpleApp" \
+--master local[*] \
+ /home/cloudera/workspace/Spark_Project/SimpleApp/target/scala-2.11/simple-project_2.11-1.0.
+
+
+http://spark.apache.org/docs/latest/quick-start.html
+https://www.youtube.com/watch?v=qrPjAyIapFY
